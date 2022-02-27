@@ -37,6 +37,7 @@
         <java.version>11</java.version>
         <jaxb.version>2.3.0</jaxb.version>
         <mapstruct.version>1.4.2.Final</mapstruct.version>
+        <apache.sm.version>3.0.1</apache.sm.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
@@ -92,6 +93,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.statemachine</groupId>
+            <artifactId>spring-statemachine-core</artifactId>
+            <version>${apache.sm.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
