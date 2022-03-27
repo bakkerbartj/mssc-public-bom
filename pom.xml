@@ -37,7 +37,7 @@
         <java.version>11</java.version>
         <jaxb.version>2.3.0</jaxb.version>
         <mapstruct.version>1.4.2.Final</mapstruct.version>
-        <apache.sm.version>3.0.1</apache.sm.version>
+        <apache.sm.version>2.1.2.RELEASE</apache.sm.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
