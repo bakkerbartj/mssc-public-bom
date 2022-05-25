@@ -11,7 +11,7 @@
 
     <groupId>biz.eyebeam.mssc</groupId>
     <artifactId>mssc-public-bom</artifactId>
-    <version>1.0.7-SNAPSHOT</version>
+    <version>1.0.7</version>
 
     <packaging>pom</packaging>
 
@@ -345,7 +345,7 @@
         <connection>scm:git:git@github.com:bakkerbartj/mssc-public-bom.git</connection>
         <developerConnection>scm:git:git@github.com:bakkerbartj/mssc-public-bom.git</developerConnection>
         <url>https://github.com/bakkerbartj/mssc-public-bom</url>
-        <tag>HEAD</tag>
+        <tag>mssc-public-bom-1.0.7</tag>
     </scm>
 
     <distributionManagement>
